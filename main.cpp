@@ -3,58 +3,64 @@ using namespace std;
 
 int main()
 {
-    string process;
-    
-    cout << "1. Info Default Acc / CrAcc / CrAcc2 / CrAcc3" << endl;
-    cout << "2. Create Acc" << endl;
-    cout << "3. Create Acc2" << endl;
-    cout << "4. Create Acc3" << endl;
-    cout << "Enter the process: " << endl;
-    cin >> process;
-
-    if (process == "1")
+    while (true)
     {
-        string iprocess;
-        cout << "Select the user account you want to view. (D / 1 / 2 / 3) (If there is no user account, please create a user account): " << endl;
-        cin >> iprocess;
+        string process;
+    
+        cout << "1. Info Default Acc / CrAcc / CrAcc2 / CrAcc3" << endl;
+        cout << "2. Create Acc" << endl;
+        cout << "3. Create Acc2" << endl;
+        cout << "4. Create Acc3" << endl;
+        cout << "Enter the process: ";
+        cin >> process;
 
-        if (iprocess == "D")
+        if (process == "1")
         {
-            DefaultAccount::InfodefaultAcc;
+            string iprocess;
+            cout << "Select the user account you want to view. (D / 1 / 2 / 3) (If there is no user account, please create a user account): ";
+            cin >> iprocess;
+
+            if (iprocess == "D")
+            {
+                DefaultAccount::InfodefaultAcc;
+            }
+            if (iprocess == "1")
+            {
+                CreateAcc::InfoCrAcc;
+            }
+            if (iprocess == "2")
+            {
+                CreateAcc_tw::InfotwAcc;
+            }
+            if (iprocess == "3")
+            {
+                CreateAcc_thr::InfothrAcc;
+            }
+            else
+            {
+                cout << "Invalid user acc...";
+            }
+        
         }
-        if (iprocess == "1")
+        if (process == "2")
         {
-            CreateAcc::InfoCrAcc;
+            cracc.CreateAccount();
         }
-        if (iprocess == "2")
+        if (process == "3")
         {
-            CreateAcc_tw::InfotwAcc;
+            cracctw.CreateAccount();
         }
-        if (iprocess == "3")
+        if (process == "4")
         {
-            CreateAcc_thr::InfothrAcc;
+            craccthr.CreateAccount();
         }
+        if (process == "exit")
+        {
+        	exit(0);
+		}
         else
         {
-            cout << "Invalid user acc..." << endl;
+            cout << "Invalid Process...";
         }
-        
     }
-    if (process == "2")
-    {
-        cracc.CreateAccount();
-    }
-    if (process == "3")
-    {
-        cracctw.CreateAccount();
-    }
-    if (process == "4")
-    {
-        craccthr.CreateAccount();
-    }
-    else
-    {
-        cout << "Invalid Process..." << endl;
-    }
-    
 }
