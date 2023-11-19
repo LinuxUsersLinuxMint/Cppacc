@@ -20,19 +20,19 @@ int main()
 
         if (iprocess == "D")
         {
-            InfodefaultAcc();
+            DefaultAccount::InfodefaultAcc;
         }
         if (iprocess == "1")
         {
-            InfoCrAcc();
+            CreateAcc::InfoCrAcc;
         }
         if (iprocess == "2")
         {
-            InfotwAcc();
+            CreateAcc_tw::InfotwAcc;
         }
         if (iprocess == "3")
         {
-            InfothrAcc();
+            CreateAcc_thr::InfothrAcc;
         }
         else
         {

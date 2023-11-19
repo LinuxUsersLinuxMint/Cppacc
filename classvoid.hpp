@@ -4,7 +4,7 @@
 #include "classobj.hpp"
 #include "defaultacc.hpp"
 
-void InfodefaultAcc()
+void DefaultAccount::InfodefaultAcc()
 {
     cout << "Guest Name: " << dfacc.Accname << endl;
     cout << "Guest Surname: " << dfacc.Accsurname << endl;
@@ -12,7 +12,7 @@ void InfodefaultAcc()
     cout << "Guest Credi: " << dfacc.AccCredi << endl;
 }
 
-void InfoCrAcc()
+void CreateAcc::InfoCrAcc()
 {
     cout << "Acc Name: " << cracc.Accname << endl;
     cout << "Acc Surname: " << cracc.Accsurname << endl;
@@ -20,7 +20,7 @@ void InfoCrAcc()
     cout << "Acc Credi: " << cracc.AccCredi << endl;
 }
 
-void InfotwAcc()
+void CreateAcc_tw::InfotwAcc()
 {
     cout << "Acc2 Name: " << cracctw.Accname << endl;
     cout << "Acc2 Surname: " << cracctw.Accsurname << endl;
@@ -28,7 +28,7 @@ void InfotwAcc()
     cout << "Acc2 Credi: " << cracctw.AccCredi << endl;
 }
 
-void InfothrAcc()
+void CreateAcc_thr::InfothrAcc()
 {
     cout << "Acc3 Name: " << craccthr.Accname << endl;
     cout << "Acc3 Surname: " << craccthr.Accsurname << endl;

@@ -12,7 +12,8 @@ class DefaultAccount
         string Accname;
         string Accsurname;
         int AccAge;
-        int AccCredi;      
+        int AccCredi;
+		void InfodefaultAcc();    
 };
 
 class CreateAcc: public DefaultAccount
@@ -29,16 +30,19 @@ class CreateAcc: public DefaultAccount
             cout << "Account Credi: " << endl;
             cin >> AccCredi;
         }
+        void InfoCrAcc();
 };
 
 class CreateAcc_tw: public CreateAcc
 {
-
+	public:
+		void InfotwAcc();
 };
 
 class CreateAcc_thr: public CreateAcc
 {
-
+	public:
+		void InfothrAcc();
 };
 
 #endif

@@ -4,7 +4,7 @@
 #include "classobj.hpp"
 using namespace std;
 
-/*dfacc.Accname = "Guest1";
+/*dfAcc.Accname = "Guest1";
 dfacc.Accsurname = "_";
 dfacc.AccAge = 00;
 dfacc.AccCredi = 50;*/
