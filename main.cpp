@@ -7,10 +7,10 @@ int main()
     {
         string process;
     
-        cout << "1. Info Default Acc / CrAcc / CrAcc2 / CrAcc3" << endl;
-        cout << "2. Create Acc" << endl;
-        cout << "3. Create Acc2" << endl;
-        cout << "4. Create Acc3" << endl;
+        cout << "1. Info Default Acc / CrAcc / CrAcc2 / CrAcc3" << "\n";
+        cout << "2. Create Acc" << "\n";
+        cout << "3. Create Acc2" << "\n";
+        cout << "4. Create Acc3" << "\n";
         cout << "Enter the process: ";
         cin >> process;
 

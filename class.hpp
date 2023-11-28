@@ -21,13 +21,13 @@ class CreateAcc: public DefaultAccount
     public:
         void CreateAccount()
         {
-            cout << "Account Name: " << endl;
+            cout << "Account Name: " << "\n";
             cin >> Accname;
-            cout << "Account Surname: " << endl;
+            cout << "Account Surname: " << "\n";
             cin >> Accsurname;
-            cout << "Account Age: " << endl;
+            cout << "Account Age: " << "\n";
             cin >> AccAge;
-            cout << "Account Credi: " << endl;
+            cout << "Account Credi: " << "\n";
             cin >> AccCredi;
         }
         void InfoCrAcc();
