@@ -2,7 +2,8 @@
 #define _DEFAULT_ACC_HPP_
 
 #include "classobj.hpp"
-using namespace std;
+#include "CADK/ForCpp/cppdefined.hpp"
+uns
 
 /*dfAcc.Accname = "Guest1";
 dfacc.Accsurname = "_";

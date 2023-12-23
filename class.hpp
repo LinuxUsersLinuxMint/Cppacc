@@ -4,45 +4,46 @@
 #include <iostream>
 #include <string> 
 
-using namespace std;
+#include "CADK/ForCpp/cppdefined.hpp"
+uns
 
-class DefaultAccount
+cl DefaultAccount
 {
-    public:
-        string Accname;
-        string Accsurname;
-        int AccAge;
-        int AccCredi;
-		void InfodefaultAcc();    
+    pb
+        _str Accname;
+        _str Accsurname;
+        _i AccAge;
+        _i AccCredi;
+		V InfodefaultAcc();    
 };
 
-class CreateAcc: public DefaultAccount
+cl CreateAcc: pbl DefaultAccount
 {
-    public:
-        void CreateAccount()
+    pb
+        V CreateAccount()
         {
-            cout << "Account Name: " << "\n";
-            cin >> Accname;
-            cout << "Account Surname: " << "\n";
-            cin >> Accsurname;
-            cout << "Account Age: " << "\n";
-            cin >> AccAge;
-            cout << "Account Credi: " << "\n";
-            cin >> AccCredi;
+            ct << "Account Name: " << n;
+            cn >> Accname;
+            ct << "Account Surname: " << n;
+            cn >> Accsurname;
+            ct << "Account Age: " << n;
+            cn >> AccAge;
+            ct << "Account Credi: " << n;
+            cn >> AccCredi;
         }
-        void InfoCrAcc();
+        V InfoCrAcc();
 };
 
-class CreateAcc_tw: public CreateAcc
+cl CreateAcc_tw: pbl CreateAcc
 {
-	public:
-		void InfotwAcc();
+	pb
+        V InfotwAcc();
 };
 
-class CreateAcc_thr: public CreateAcc
+cl CreateAcc_thr: pbl CreateAcc
 {
-	public:
-		void InfothrAcc();
+	pb
+		V InfothrAcc();
 };
 
 #endif

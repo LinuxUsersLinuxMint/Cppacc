@@ -3,37 +3,39 @@
 
 #include "classobj.hpp"
 #include "defaultacc.hpp"
+#include "CADK/ForCpp/cppdefined.hpp"
+uns
 
-void DefaultAccount::InfodefaultAcc()
+V DefaultAccount::InfodefaultAcc()
 {
-    cout << "Guest Name: " << dfacc.Accname << "\n";
-    cout << "Guest Surname: " << dfacc.Accsurname << "\n";
-    cout << "Guest Age: " << dfacc.AccAge << "\n";
-    cout << "Guest Credi: " << dfacc.AccCredi << "\n";
+    ct << "Guest Name: " << dfacc.Accname << n;
+    ct << "Guest Surname: " << dfacc.Accsurname << n;
+    ct << "Guest Age: " << dfacc.AccAge << n;
+    ct << "Guest Credi: " << dfacc.AccCredi << n;
 }
 
-void CreateAcc::InfoCrAcc()
+V CreateAcc::InfoCrAcc()
 {
-    cout << "Acc Name: " << cracc.Accname << "\n";
-    cout << "Acc Surname: " << cracc.Accsurname << "\n";
-    cout << "Acc Age: " << cracc.AccAge << "\n";
-    cout << "Acc Credi: " << cracc.AccCredi << "\n";
+    ct << "Acc Name: " << cracc.Accname << n;
+    ct << "Acc Surname: " << cracc.Accsurname << n;
+    ct << "Acc Age: " << cracc.AccAge << n;
+    ct << "Acc Credi: " << cracc.AccCredi << n;
 }
 
-void CreateAcc_tw::InfotwAcc()
+V CreateAcc_tw::InfotwAcc()
 {
-    cout << "Acc2 Name: " << cracctw.Accname << "\n";
-    cout << "Acc2 Surname: " << cracctw.Accsurname << "\n";
-    cout << "Acc2 Age: " << cracctw.AccAge << "\n";
-    cout << "Acc2 Credi: " << cracctw.AccCredi << "\n";
+    cout << "Acc2 Name: " << cracctw.Accname << n;
+    cout << "Acc2 Surname: " << cracctw.Accsurname << n;
+    cout << "Acc2 Age: " << cracctw.AccAge << n;
+    cout << "Acc2 Credi: " << cracctw.AccCredi << n;
 }
 
-void CreateAcc_thr::InfothrAcc()
+V CreateAcc_thr::InfothrAcc()
 {
-    cout << "Acc3 Name: " << craccthr.Accname << "\n";
-    cout << "Acc3 Surname: " << craccthr.Accsurname << "\n";
-    cout << "Acc3 Age: " << craccthr.AccAge << "\n";
-    cout << "Acc3 Credi: " << craccthr.AccCredi << "\n";
+    cout << "Acc3 Name: " << craccthr.Accname << n;
+    cout << "Acc3 Surname: " << craccthr.Accsurname << n;
+    cout << "Acc3 Age: " << craccthr.AccAge << n;
+    cout << "Acc3 Credi: " << craccthr.AccCredi << n;
 }
 
 #endif
