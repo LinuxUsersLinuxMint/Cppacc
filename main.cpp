@@ -24,15 +24,15 @@ int main()
             {
                 DefaultAccount::InfodefaultAcc;
             }
-            if (iprocess == "1")
+            else if (iprocess == "1")
             {
                 CreateAcc::InfoCrAcc;
             }
-            if (iprocess == "2")
+            else if (iprocess == "2")
             {
                 CreateAcc_tw::InfotwAcc;
             }
-            if (iprocess == "3")
+            else if (iprocess == "3")
             {
                 CreateAcc_thr::InfothrAcc;
             }
@@ -42,19 +42,19 @@ int main()
             }
         
         }
-        if (process == "2")
+        else if (process == "2")
         {
             cracc.CreateAccount();
         }
-        if (process == "3")
+        else if (process == "3")
         {
             cracctw.CreateAccount();
         }
-        if (process == "4")
+        else if (process == "4")
         {
             craccthr.CreateAccount();
         }
-        if (process == "exit")
+        else if (process == "exit")
         {
         	exit(0);
 		}
